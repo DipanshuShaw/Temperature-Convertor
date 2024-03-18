@@ -1,0 +1,52 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(59, 59, 59);
+    color: aliceblue;
+}
+
+.container {
+    width: 33%;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid white;
+    box-shadow: 2px 2px 10px rgb(162, 162, 162);
+    height: 40vh;
+}
+
+#value {
+    font-size: larger;
+    appearance: none;
+    padding: 0.5rem;
+    border: 1px solid white;
+    border-radius: 1.5rem;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+label {
+    font-size: 1.3rem;
+}
+
+
+#toFahrenheit,
+#toCelcius {
+    margin: 1rem;
+    margin-right: 5px;
+}
+
+button {
+    color: aliceblue;
+    background-color: brown;
+    font-size: larger;
+    /* border: 2px solid brown; */
+    padding: 0.2rem;
+    margin: 0.25rem;
+}
+
